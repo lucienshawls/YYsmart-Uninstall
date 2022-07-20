@@ -1,0 +1,2 @@
+# YYsmart-Uninstall
+ 
