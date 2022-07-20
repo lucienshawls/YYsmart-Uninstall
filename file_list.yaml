@@ -1,0 +1,20 @@
+dll:
+  - '~\AppData\Roaming\YYsmartWeb\Tools\YYSmartAddInDoc.dll'
+  - '~\AppData\Roaming\YYsmartWeb\Tools\YYSmartAddInPpt.dll'
+registry:
+  key:
+    - HKEY_CLASSES_ROOT\.yysmart
+  value:
+    - 
+file:
+  - '.\YYsmartURL.exe'
+  - '~\AppData\Roaming\YYInstallMK.log'
+  - 'C:\Windows\YYBrowser.dll'
+  - '~\AppData\Roaming\Microsoft\Windows\Recent\YYInstallMK.log.lnk'
+  - 'C:\Windows\YYsmart128.ico'
+  - 'C:\Users\Administrator\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\AppIconCache\100\C__Users_Administrator_Documents_GMP_YYSmartURL_exe'
+  - 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent\C__Users_Administrator_Documents_GMP_YYSmartURL_exe.lnk'
+folder:
+  - '~\AppData\Roaming\YYsmartWeb'
+  - '~\AppData\Local\Temp\RarSFX0'
+  - 'C:\Program Files (x86)\YYSmart'
