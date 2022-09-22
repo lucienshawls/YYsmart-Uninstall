@@ -1,20 +1,25 @@
 dll:
-  - '~\AppData\Roaming\YYsmartWeb\Tools\YYSmartAddInDoc.dll'
-  - '~\AppData\Roaming\YYsmartWeb\Tools\YYSmartAddInPpt.dll'
+  - ~\AppData\Roaming\YYsmartWeb\Tools\YYSmartAddInDoc.dll
+  - ~\AppData\Roaming\YYsmartWeb\Tools\YYSmartAddInPpt.dll
 registry:
   key:
     - HKEY_CLASSES_ROOT\.yysmart
   value:
-    - 
+    - HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\UFH\SHC\?
+    - HKEY_USERS\S-1-5-21-3934299861-3137439182-1465778620-1003\Software\Microsoft\Windows\CurrentVersion\UFH\SHC\?
+    - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers\*YYSmart*
+    - HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-3934299861-3137439182-1465778620-1003\*YYSmart*
+    - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-3934299861-3137439182-1465778620-1003\*YYSmart*
 file:
-  - '.\YYsmartURL.exe'
-  - '~\AppData\Roaming\YYInstallMK.log'
-  - 'C:\Windows\YYBrowser.dll'
-  - '~\AppData\Roaming\Microsoft\Windows\Recent\YYInstallMK.log.lnk'
-  - 'C:\Windows\YYsmart128.ico'
-  - 'C:\Users\Administrator\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\AppIconCache\100\C__Users_Administrator_Documents_GMP_YYSmartURL_exe'
-  - 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Recent\C__Users_Administrator_Documents_GMP_YYSmartURL_exe.lnk'
+  - .\YYsmartURL.exe
+  - ~\AppData\Roaming\YYInstallMK.log
+  - C:\Windows\YYBrowser.dll
+  - ~\AppData\Roaming\Microsoft\Windows\Recent\YYInstallMK.log.lnk
+  - C:\Windows\YYsmart* # C:\Windows\YYsmart128.ico
+  - ~\AppData\Roaming\Microsoft\Windows\Recent\*YYSmart*
 folder:
-  - '~\AppData\Roaming\YYsmartWeb'
-  - '~\AppData\Local\Temp\RarSFX0'
-  - 'C:\Program Files (x86)\YYSmart'
+  - ~\AppData\Roaming\YYsmartWeb
+  - ~\AppData\Local\Temp\RarSFX0
+  - C:\Program Files (x86)\YYSmart
+  - ~\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\AppIconCache
+  - ~\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\AppIconCache
